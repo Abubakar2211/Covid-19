@@ -93,9 +93,8 @@ while($row1=mysqli_fetch_array($ret1)){
 
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php  echo $row1['AdminName'];?></span>
                            <?php } ?>
-                                <img class="img-profile rounded-circle"
-                                    src="img/undraw_profile.svg">
-                            </a>
+                           <i class="fa-solid fa-circle-user" style="font-size:25px; color:#6f42c1;"></i>
+                        </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">

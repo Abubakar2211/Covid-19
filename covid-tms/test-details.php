@@ -18,7 +18,7 @@ $pid=$assignto[1];
 $status='Assigned';
 $assigntime = date( 'd-m-Y h:i:s A', time ());
 $query=mysqli_query($con,"update tbltestrecord set ReportStatus='$status',AssigntoName='$aname',AssignedtoEmpId='$pid',AssignedTime='$assigntime' where id='$testid'");
-echo '<script>alert("Assigned to Phlebotomist successfully.")</script>';
+echo '<script>alert("Assigned to Hospital successfully.")</script>';
 echo "<script>window.location.href='assigned-test.php'</script>";
     }
 
@@ -156,10 +156,7 @@ while($row=mysqli_fetch_array($query)){
     </tr>
 
 
-     <tr>
-    <th>Govt Issued Id</th> 
-    <td><?php echo $row['GovtIssuedId'];?></td>
-    </tr>
+
 
 
      <tr>
@@ -270,8 +267,9 @@ endif;?>
                                 </div>
                             </div>
 
-                        </div>
+                    
                     </div>
+                    
                 <?php } ?>
 
 
@@ -284,15 +282,17 @@ where tblreporttracking.OrderNumber='$orderid'");
 $num=mysqli_num_rows($ret);
 ?>
 
-<div class="row">
+<div class="row" style="width:100%">
                          <div class="col-lg-12">
 
                             <!-- Basic Card Example -->
-                            <div class="card shadow mb-4">
+                            <div class="card shadow  mb-4">
                                 <div class="card-header py-3">
                                     <h6 class="m-0 font-weight-bold text-primary" align="center">Test  Tracking History</h6>
                                 </div>
                                 <div class="card-body">
+
+
 <?php if($num>0){
 ?>
  <table class="table table-bordered"  width="100%" cellspacing="0">

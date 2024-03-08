@@ -116,7 +116,7 @@ while($row=mysqli_fetch_array($query)){
                                         </div>
                                         <div class="form-group">
                                              <label>Mobile Number</label>
-                                  <input type="text" class="form-control" id="mobilenumber" name="mobilenumber" placeholder="Please enter your mobile number" pattern="[0-9]{10}" title="10 numeric characters only" value="<?php echo $row['MobileNumber'];?>" required="true" >
+                                  <input type="text" class="form-control" id="mobilenumber" name="mobilenumber" placeholder="Please enter your mobile number"  value="<?php echo $row['MobileNumber'];?>" required="true" >
                                           
                                         </div>
                         

@@ -59,7 +59,7 @@ if (strlen($_SESSION['aid']==0)) {
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Assigned To Phlebotomist</h1>
+                    <h1 class="h3 mb-2 text-gray-800">Assigned To Hospital</h1>
     
 
                     <!-- DataTales Example -->

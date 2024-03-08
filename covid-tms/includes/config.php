@@ -1,6 +1,6 @@
 <?php
 //time zone
-date_default_timezone_set('Asia/Kolkata');
+date_default_timezone_set('Asia/Karachi');
 //database connection
 $con=mysqli_connect("localhost","root","","covidtmsdb");
 if(mysqli_connect_errno()){

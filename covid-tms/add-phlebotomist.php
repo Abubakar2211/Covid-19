@@ -36,7 +36,7 @@ echo "<script>window.location.href='add-phlebotomist.php'</script>";
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Covid-19 Testing Management System | Add Phlebotomist</title>
+    <title>Covid-19 Testing Management System | Add Hosiptal</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -93,7 +93,7 @@ error:function (){}
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-4 text-gray-800">Add Phlebotomist</h1>
+                    <h1 class="h3 mb-4 text-gray-800">Add Hospitals</h1>
 <form name="addphlebotomist" method="post">
   <div class="row">
 
@@ -107,17 +107,17 @@ error:function (){}
                                 <div class="card-body">
      <div class="form-group">
                             <label>Employee Id</label>
-                                            <input type="text" class="form-control" id="empid" name="empid"  placeholder="Enter Emp Id..."   required="true" onBlur="empidAvailability()">
+                                            <input type="text" class="form-control" id="empid" name="empid"  placeholder="Enter Emp Id..."   required="true" >
                                                   <span id="empid-availability-status" style="font-size:12px;"></span>
                                         </div>
 
                         <div class="form-group">
                             <label>Full Name</label>
-                                            <input type="text" class="form-control" id="fullname" name="fullname"  placeholder="Enter your full name..." pattern="[A-Za-z ]+" title="letters only" required="true">
+                                            <input type="text" class="form-control" id="fullname" name="fullname"  placeholder="Enter your full name..."  required="true">
                                         </div>
                                         <div class="form-group">
                                              <label>Mobile Number</label>
-                                  <input type="text" class="form-control" id="mobilenumber" name="mobilenumber" placeholder="Please enter your mobile number" pattern="[0-9]{10}" title="10 numeric characters only" required="true" >
+                                  <input type="text" class="form-control" id="mobilenumber" name="mobilenumber" placeholder="Please enter your mobile number"  required="true" >
                                           
                                         </div>
                         
